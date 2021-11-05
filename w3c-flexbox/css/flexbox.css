@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    max-width: 600px;
+    height: 300px;
+    background-color: chartreuse;
+    margin: auto;
+    margin-top: 20px; 
+      /*Esse é o padrão - display: block;*/
+    display: flex;/* Propriedade torna o contaier flexivel*/
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+   
+      
+}
+
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background: #447;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.order1{
+    order: 3;
+    align-self: center ;
+   
+}
